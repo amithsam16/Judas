@@ -165,6 +165,8 @@
             chatbox.appendChild(messageElement);
             chatbox.scrollTop = chatbox.scrollHeight;
         }
+        function doGet() {
+            return ContentService.createTextOutput("Hello! Judas is working!");
 
         // Initial greeting
         appendMessage('Judas: Greetings! I am Judas, your virtual guide for sermon questions. How may I assist you today?', 'judas-message');
